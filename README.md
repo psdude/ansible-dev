@@ -1,6 +1,6 @@
  # ansible-dev
  
-This repo is created duriing an ansible learning class.
+This repo is created during an ansible learning class. Also learning about version control using Git.
  
  ## Getting Started
  
