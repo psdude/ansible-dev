@@ -1,0 +1,14 @@
+---
+#ipam-create-dns-net-host
+- name: DNS Zone, Network, and Host Play
+  hosts: localhost
+  connection: local
+  gather_facts: no   # running against local host
+
+  vars:
+          domain: campuswest.local
+  roles:
+          - ipam-create-dns-net-host
+
+  tasks:
+
